@@ -21,7 +21,7 @@ def drag_and_drop_first_element(driver_instance):
     source = driver_instance.find_element_by_id(drag_elem_A)
     target = driver_instance.find_element_by_id(drag_elem_B)
     driver_instance.execute_script("window.scrollTo(0,document.body.scrollHeight)")
-    js_d_d = open(r'/home/antoni/Pulpit/EWA/simpleTestSite/Tests/helpers/drag_drop.js', 'r').read()
+    js_d_d = open(r'/home/.../simpleTestSite/Tests/helpers/drag_drop.js', 'r').read()
     driver_instance.execute_script(js_d_d, source, target)
 
 
