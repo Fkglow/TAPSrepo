@@ -1,0 +1,7 @@
+{
+	"host": "ip",
+	"port": 8080,
+	"timeout": 300000,
+	"maxSessions": 4,
+	"platform": "LINUX"
+}
